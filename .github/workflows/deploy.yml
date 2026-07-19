@@ -1,9 +1,9 @@
 name: github deployment workflow practice
 
 on: 
-push:
-  branches: ["main"]
-  paths: ["index.html"]
+  push:
+    branches: ["main"]
+    paths: ["index.html"]
 
 permissions:
   contents: read
